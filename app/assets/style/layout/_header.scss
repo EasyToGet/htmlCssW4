@@ -1,0 +1,62 @@
+.header {
+	padding: 0 88px;
+	display: flex;
+  @include desktop {
+    padding: 0 40px;
+  }
+  @include mobile {
+    padding: 0;
+		display: block;
+  }
+}
+.logo {
+  padding: 30px 0;
+  a {
+    background: url(../images/logo.png) no-repeat center ;
+    background-size: contain;
+    width: 80px;
+    height: 49px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  @include mobile {
+    padding: 10px 0;
+    a {
+      width: 48px;
+      height: 29px;
+      margin: 0 auto;
+    }
+  }
+}
+.headerMenu {
+  width: 492px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  li {
+    padding: 40px 0;
+    a {
+      &:hover {
+        color: burlywood;
+      }
+    }
+  }
+  @include desktop {
+    width: 420px;
+  }
+  @include mobile {
+    width: 100%;
+    flex-wrap: wrap;
+    li {
+      width: 50%;
+      padding: 7px 0;
+      border: 1px solid #fff;
+      text-align: center;
+      a {
+        display: block;
+      }
+    }
+  }
+}

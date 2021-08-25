@@ -1,0 +1,451 @@
+.banner {
+	background: url(../images/banner.png) center no-repeat;
+	background-size: cover;
+  @include mobile {
+    .h4 {
+      font-size: 16px;
+    }
+    .h2 {
+      font-size: 32px;
+    }
+  }
+}
+.banner-wrap {
+  height: 840px;
+  @include desktop {
+    margin-right: 23px;
+  }
+  @include mobile {
+    height: 394px;
+    margin-right: 0;
+  }
+}
+
+
+.specialty {
+  h3 {
+    padding-top: 60px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+  }
+  h5 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  p {
+    text-align: left;
+    color: #000;
+  }
+  @include desktop {
+    .h3 {
+      font-size: 32px;
+    }
+    h3 {
+      padding-top: 40px;
+    }
+    .mb-5 {
+      margin-bottom: 32px;
+    }
+    .mb-6 {
+      margin-bottom: 40px;
+    }
+    ul {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding-bottom: 24px;
+    }
+  }
+  @include mobile {
+    .h3 {
+      font-size: 20px;
+    }
+    h3 {
+      padding-top: 32px;
+    }
+    .mb-5 {
+      margin-bottom: 20px;
+    }
+    .mb-6 {
+      margin-bottom: 32px;
+    }
+    ul {
+      padding-bottom: 8px;
+    }
+  }
+}
+.specialtyCard {
+  width: 23%;
+  text-align: center;
+  padding-bottom: 80px;
+  @include desktop {
+    width: 40%;
+    padding-bottom: 32px;
+  }
+  @include mobile {
+    width: 70%;
+  }
+}
+
+
+.classic {
+	margin-bottom: 80px;
+  ul {
+    li {
+      display: flex;
+      img {
+        width: 58%;
+        display: block;
+      }
+    }
+  }
+  @include desktop {
+    margin-bottom: 56px;
+    .h3 {
+      font-size: 32px;
+    }
+    .mb-5 {
+      margin-bottom: 32px;
+    }
+    .mb-4 {
+      margin-bottom: 8px;
+    }
+  }
+  @include mobile {
+    margin-bottom: 40px;
+    .h3 {
+      font-size: 20px;
+    }
+    .mb-5 {
+      margin-bottom: 20px;
+    }
+    ul {
+      li {
+        justify-content: center;
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
+.classicHeader {
+  display: flex;
+  align-items: center;
+  @include desktop {
+    .h3 {
+      font-size: 28px;
+    }
+  }
+  @include mobile {
+    justify-content: center;
+  }
+}
+.icon {
+  &-awesome {
+    background-image: url(../images/icon-awesome.svg);
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+  }
+  &-light-mode {
+    background-image: url(../images/icon-light-mode.svg);
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+  }
+  &-flash-on {
+    background-image: url(../images/icon-flash-on.svg);
+    width: 48px;
+    height: 48px;
+  }
+}
+.classic {
+  @include mobile {
+    &-img1 {
+      background: url(../images/product-1.png) center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 134px;
+    }
+    &-img2 {
+      background: url(../images/product-2.png) center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 134px;
+    }
+    &-img3 {
+      background: url(../images/product-3.png) center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 134px;
+    }
+  }
+}
+.classicReverse {
+  flex-direction: row-reverse;
+  @include desktop {
+    flex-direction: row;
+    img {
+      margin-right: 32px;
+    }
+  }
+}
+
+
+.jointDesign {
+	background: url(../images/bg.png) center;
+	background-size: cover;
+	margin-bottom: 60px;
+  h3 {
+    padding-top: 58px;
+  }
+  @include desktop {
+    margin-bottom: 40px;
+    h3 {
+      padding-top: 40px;
+    }
+    .h3 {
+      font-size: 32px;
+    }
+    .mb-5 {
+      margin-bottom: 32px;
+    }
+    .pb-7 {
+      padding-bottom: 56px;
+    }
+  }
+  @include mobile {
+    margin-bottom: 32px;
+    h3 {
+      padding-top: 32px;
+    }
+    .h3 {
+      font-size: 20px;
+    }
+    .mb-5 {
+      margin-bottom: 20px;
+    }
+    ul {
+      flex-wrap: wrap;
+      li {
+        width: 100%;
+        margin-bottom: 16px;
+      }
+    }
+    .pb-7 {
+      padding-bottom: 24px;
+    }
+  }
+}
+.doubleA {
+    background: url(../images/product-8.png) center center;
+    background-size: cover;
+    width: 49%;
+    height: 455px;
+    @include desktop {
+      width: 47%;
+      height: 278px;
+      a {
+        font-size: 32px;
+        font-weight: bold;
+      }
+    }
+    @include mobile {
+      height: 291px;
+    }
+  }
+  .youth {
+    background: url(../images/product-9.png) center center;
+    background-size: cover;
+    width: 49%;
+    height: 455px;
+    @include desktop {
+      width: 47%;
+      height: 278px;
+      a {
+        font-size: 32px;
+        font-weight: bold;
+      }
+    }
+    @include mobile {
+      height: 291px;
+    }
+  }
+  .jointDesignTitle {
+    height: 455px;
+    &:hover {
+      background: rgba(255, 255, 255, 0.5);
+    }
+    @include desktop {
+      height: 278px;
+    }
+    @include mobile {
+      height: 291px;
+    }
+  }
+
+
+.recommend {
+	margin-bottom: 48px;
+  @include desktop {
+    margin-bottom: 24px;
+    .h3 {
+      font-size: 32px;
+    }
+    .mb-5 {
+      margin-bottom: 32px;
+    }
+    ul {
+      flex-wrap: wrap;
+    }
+  }
+  @include mobile {
+    .h3 {
+      font-size: 20px;
+    }
+    .mb-5 {
+      margin-bottom: 20px;
+    }
+  }
+}
+.card {
+	width: 23%;
+	border: 1px solid #DEE2E6;
+	box-shadow: 0 2px 6px #00000029;
+	border-radius: 4px;
+	margin-bottom: 32px;
+  &-body {
+    padding: 16px 16px;
+    height: 204px;
+  }
+  &-img-1 {
+    background: url(../images/rec-1.png) center;
+    background-size: cover;
+    height: 256px;
+  }
+
+  &-img-2 {
+    background: url(../images/rec-2.png) center;
+    background-size: cover;
+    height: 256px;
+  }
+
+  &-img-3 {
+    background: url(../images/rec-3.png) center;
+    background-size: cover;
+    height: 256px;
+  }
+
+  &-img-4 {
+    background: url(../images/rec-4.png) center;
+    background-size: cover;
+    height: 256px;
+  }
+
+  &-title {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  &-date {
+    font-size: 14px;
+  }
+  @include desktop {
+    width: 48%;
+  }
+  @include mobile {
+    width: 100%;
+		margin-bottom: 16px;
+  }
+}
+
+
+.contactUs {
+	padding-top: 60px;
+	padding-bottom: 80px;
+  @include desktop {
+    padding-top: 40px;
+		padding-bottom: 56px;
+    .h3 {
+      font-size: 32px;
+    }
+    .mb-5 {
+      margin-bottom: 20px;
+    }
+  }
+  @include mobile {
+    padding-top: 30px;
+		padding-bottom: 40px;
+    .h3 {
+      font-size: 20px;
+    }
+    .mb-3 {
+      margin-bottom: 20px;
+    }
+  }
+}
+.contact {
+  &-wrap {
+    width: 68%;
+    margin: 0 auto;
+  }
+  &-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  @include desktop {
+    &-wrap {
+      width: 78%;
+    }
+    &-text {
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
+  }
+  @include mobile {
+    &-wrap {
+      width: 100%;
+    }
+    &-text {
+      margin-bottom: 8px;
+    }
+  }
+}
+.form {
+  &-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    label {
+      margin-bottom: 4px;
+    }
+  }
+  &-control {
+    background: transparent;
+    border: 1px solid #000;
+    padding: 12px 16px 14px 16px;
+    font-size: 16px;
+  }
+}
+.btn {
+	padding: 16px 143px;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+  &-wrap {
+    text-align: center;
+  }
+  &:hover {
+    background-color: rgb(121, 14, 14);
+  }
+  @include desktop {
+    padding: 10px 77px;
+  }
+  @include mobile {
+    padding: 8px 55px;
+  }
+}
+

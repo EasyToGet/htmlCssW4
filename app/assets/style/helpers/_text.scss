@@ -1,0 +1,52 @@
+/* font-size */
+.h1 {
+  font-size: $font-size-base * 4.5; // 72px
+}
+.h2 {
+	font-size: $font-size-base *  4; // 64px
+}
+.h3 {
+	font-size: $font-size-base *  3; // 48px
+}
+.h4 {
+	font-size: $font-size-base *  2.25; // 36px
+}
+.h5 {
+	font-size: $font-size-base *  1.5; // 24px
+}
+.h6 {
+	font-size: $font-size-base *  1.25; // 20px
+}
+.h-base {
+  font-size: $font-size-base; 
+}
+
+/* font-style */
+.font-italic {
+  font-style: italic;
+}
+
+/* text-color */
+.text-primary {
+	color: $primary;
+}
+.text-secondary {
+	color: $secondary;
+}
+.text-danger {
+	color: $danger;
+}
+.text-dark {
+	color: $dark;
+}
+.text-white {
+	color: $white;
+}
+.text-muted {
+	color: $muted;
+}
+
+/* text-align */
+.text-center {
+	text-align: center;
+}
