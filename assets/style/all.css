@@ -1,6 +1,14 @@
 /* font-size */
 /* spacing base */
 /* color */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px; }
+  @media (max-width: 992px) {
+    .container {
+      max-width: 720px; } }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -70,14 +78,6 @@ h2, h3, h4, h5, h6 {
 
 .header a, .footerStatus a, .copyright a {
   color: #FFFFFF; }
-
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 15px; }
-  @media (max-width: 992px) {
-    .container {
-      max-width: 720px; } }
 
 /* background-color */
 .bg-secondary {
