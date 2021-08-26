@@ -46,35 +46,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-// 自訂 CSS reset
-img {
-  max-width: 100%;
-  height: auto;	
-}
-*,*::before,*::after {
-  box-sizing: border-box;
-}
-body {
-  font-size: $font-size-base;
-  line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans TC', 'Microsoft JhengHei', Roboto, 'Helvetica Neue', Arial, sans-serif;
-}
-a {
-	text-decoration: none;
-	display: block;
-}
-h2, h3, h4, h5, h6 {
-	font-weight: bold;
-}
-.header a, .footerStatus a, .copyright a {
-	color: $white;
-}
-.container {
-	max-width: 1140px;
-	margin: 0 auto;
-	padding: 0 15px;
-	@include desktop {
-		max-width: 720px;
-	}
-}

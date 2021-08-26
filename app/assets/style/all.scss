@@ -1,6 +1,7 @@
 @import "helpers/variables";
 @import "layout/grid";
 @import "base/reset";
+@import "base/base";
 
 @import "helpers/background";
 @import "helpers/text";
@@ -11,4 +12,4 @@
 @import "layout/footer";
 
 @import "page/index";
-@import "page/qa"
+@import "page/qa";
